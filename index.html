@@ -4,10 +4,27 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
-	<link href="main.css" rel="stylesheet" />
 	<style type="text/css">
 		/* Sidebar menu, 3 levels */
 
+		.sidebar-menu li {
+		  margin-bottom: 20px;
+		}
+
+		.sidebar-menu li a {
+		  color: black;
+		  font-family: "Roboto Medium", "Arial", sans-serif;
+		  text-decoration: none;
+		}
+
+		.sidebar-menu li a.active, .sidebar-menu li a:hover, .sidebar-menu li a:active, .sidebar-menu li a:focus {
+		  color: #8c9501;
+		  text-decoration: underline;
+		}
+
+		.sidebar-menu.plain a.active, .sidebar-menu.plain li a:hover, .sidebar-menu.plain li a:active, .sidebar-menu.plain li a:focus {
+		  color: black;
+		}
 		ul.sidebar-menu li.has-submenu ul.sidebar-menu,
 		ul.sidebar-menu li.has-submenu ul li.has-submenu ul.sidebar-menu {
 			padding-left: 20px;
